@@ -1,0 +1,27 @@
+{
+  "name": "create-formidable-cli",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "compile": "pkg ."
+  },
+  "bin": {
+    "create-formidable-cli": "./bin/run"
+  },
+  "pkg": {
+    "assets": [
+      "./lib/**/*.js",
+      "cli.json"
+    ],
+    "outputPath": "dist"
+  },
+  "dependencies": {
+    "@formidablejs/cli-loader": "^0.0.1",
+    "@formidablejs/console": "^0.0.21"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
