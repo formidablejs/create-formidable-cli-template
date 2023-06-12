@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "@formidablejs/cli-loader": "^0.0.1",
-    "@formidablejs/console": "^0.0.21"
+    "@formidablejs/console": "^0.0.21",
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
