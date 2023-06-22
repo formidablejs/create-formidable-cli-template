@@ -17,11 +17,12 @@
     "outputPath": "dist"
   },
   "dependencies": {
-    "@formidablejs/cli-loader": "^0.0.1",
+    "@formidablejs/cli-loader": "^0.0.2",
     "@formidablejs/console": "^0.0.21",
     "inquirer": "^8.2.4"
   },
   "devDependencies": {
+    "@types/node": "^20.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   }
